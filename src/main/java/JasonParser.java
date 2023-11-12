@@ -1,25 +1,13 @@
-import data.Property;
-import data.SchedulerItem;
-import data.Space;
+
 import data.TimePeriod;
 import data.importexport.Configuration;
-import data.importexport.ConfigurationItemProperty;
-import exceptions.MandatoryPropertyException;
-import javafx.beans.property.StringProperty;
 import org.json.JSONObject;
 import services.importexport.JsonParser;
 
 import java.time.LocalDate;
 import java.time.LocalTime;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
 
 public class JasonParser extends JsonParser {
-
-
-    // prebaci mi u specifikaciju nek ostane u json itd samo parsetimeperiod abstractan
 
 
     // napravite timeperiodweeklyconfig i unutra stavite isto kao ovde sve ponaosob za savako timeperiodweekly polje
